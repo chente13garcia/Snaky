@@ -47,3 +47,16 @@ body {
 .play-board .head {
   background: #60cbff;
 }
+
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+  .game-details {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .wrapper {
+    min-width: 300px;
+    min-height: 300px;
+  }
+}
